@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Public Sans";
+    src: url('public/fonts/PublicSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container {
+    width: 50rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
